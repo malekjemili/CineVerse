@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react'
 import { useParams, useNavigate, Link } from 'react-router-dom'
-import { postService, timeAgo } from '../services/api'
-import { useAuth } from '../context/AuthContext'
-import { useToast } from '../context/ToastContext'
-import Stars from '../components/Stars'
+import { postService, timeAgo } from 'api'
+import { useAuth } from 'AuthContext'
+import { useToast } from 'ToastContext'
+import Stars from 'Stars'
 
 export default function PostDetailPage() {
   const { id } = useParams()
