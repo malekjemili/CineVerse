@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { useAuth } from '../context/AuthContext'
-import { useToast } from '../context/ToastContext'
-import { postService, timeAgo, GENRES } from '../services/api'
+import { useAuth } from 'AuthContext'
+import { useToast } from 'ToastContext'
+import { postService, timeAgo, GENRES } from 'api'
 import Stars from './Stars'
 
 export default function PostCard({ post, onDelete, style }) {
