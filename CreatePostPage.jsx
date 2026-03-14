@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { postService, GENRES } from '../services/api'
-import { useToast } from '../context/ToastContext'
-import Stars from '../components/Stars'
+import { postService, GENRES } from 'api'
+import { useToast } from 'ToastContext'
+import Stars from 'Stars'
 
 export default function CreatePostPage() {
   const { toast } = useToast()
