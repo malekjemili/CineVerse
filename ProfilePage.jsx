@@ -1,9 +1,9 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { userService, postService } from '../services/api'
-import { useAuth } from '../context/AuthContext'
-import { useToast } from '../context/ToastContext'
-import PostCard from '../components/PostCard'
+import { userService, postService } from 'api'
+import { useAuth } from 'AuthContext'
+import { useToast } from 'ToastContext'
+import PostCard from 'PostCard'
 
 function Skel() {
   return (
