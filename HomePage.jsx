@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
-import { useAuth } from '../context/AuthContext'
-import { GENRES } from '../services/api'
+import { useAuth } from 'AuthContext'
+import { GENRES } from 'api'
 
 export default function HomePage() {
   const { user } = useAuth()
